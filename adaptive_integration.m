@@ -43,6 +43,8 @@ end
 
 Result   = h*result;
  n(:,i)    = i;   
+ E(:,i)  = log(eps(i)); 
+
 end
     
 else
